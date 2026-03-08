@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>It-incubator precourse</title>
+</head>
+<body>
+    <header>
+        <span>IT-INCUBATOR</span>
+    </header>
+
+    <section data-cy="hw1-section-main-pre">
+        <h1>Мифтахов Марат Айдарович</h1>
+        <p>Я живу в Казани, работаю в сети крафтового и импортного пива Beershop. Люблю смотреть фильмы, аниме, встречаться с друзьями и проводить время с женой.</p>
+        <div>
+            <img src="./assets/img/photo_2026-02-04_22-34-08.jpg" alt="смешная картинка">
+            <span>Это я делаю дз</span>
+        </div>
+    </section>
+
+    <section data-cy="hw1-section-about-pre">
+       <div>
+        <select>
+            <option value="Москва">Москва</option>
+            <option value="Казань" selected>Казань</option>
+            <option value="Бугульма">Бугульма</option>
+        </select>  
+       </div>
+
+
+        <div data-cy="hw1-unordered-list-box-pre">
+            <h2>Любимые аниме</h2>
+            <ul>
+                <li>ТораДора</li>
+                <li>Звёздное Дитя</li>
+                <li>Магическая битва</li>
+                <li>Семья шпиона</li>
+                <li>Медалистка</li>
+            </ul>
+        </div>
+
+        <div data-cy="hw1-ordered-list-box-pre">
+        <h2>Любимые фильмы</h2>
+            <ol>
+                <li>Телепорт</li>
+                <li>Назад в будущее</li>
+                <li>Социальная сеть</li>
+            </ol>
+        </div>
+
+        <div data-cy="hw1-skills-box-pre">
+            <label for="html">
+                <input type="checkbox" id="html" checked>
+                HTML
+            </label>
+            <label for="css">
+                <input type="checkbox" id="css" checked>
+                CSS
+            </label>
+            <label for="flexbox">
+                <input type="checkbox" id="flexbox">
+                Flexbox
+            </label>
+            <label for="grid css">
+                <input type="checkbox" id="grid css">
+                Grid CSS
+            </label>
+        </div>
+
+
+        <div>
+            <input type="text" placeholder="Новый скилл">
+            <button>Добавить</button>
+            <hr>
+        </div>
+        
+        <table border="1" data-cy="hw-about-table-pre">
+              <thead>
+                    <tr>
+                        <th>п/п</th>
+                        <th>Наименование</th>
+                        <th>Колличество</th>
+                    </tr>
+               </thead>
+               <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Монитор</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Клавиатура</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Мышь</td>
+                    <td>1</td>
+                </tr>
+               </tbody>
+               <tfoot>
+                <tr>
+                    <td colspan="2">Итого</td>
+                    <td>3</td>
+                </tr>
+               </tfoot>
+              
+    <footer data-cy="hw-footer-pre">
+        <a target="_blank" href="https://it-incubator.io/">it-incubator</a>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>It-incubator precourse</title>
+</head>
+<body>
+    <!-- ЗАДАНИЕ -->
+    <!-- Необходимо создать html-элементы там, где это нужно, в соответствии с правилами семантической разметки -->
+    <!-- ⚠️ Атрибут data-cy удалять нельзя! Он учавствует в проверке. Если его удалить, тесты не пройдут. -->
+
+    <header>
+        <span>IT-INCUBATOR</span>
+    </header>
+
+    <section data-cy="hw1-section-main-pre">
+        <h1>Мифтахов Марат Айдарович</h1>
+        <p>Я живу в Казани, работаю в сети крафтового и импортного пива Beershop. Люблю смотреть фильмы, аниме, встречаться с друзьями и проводить время с женой.</p>
+        <div>
+            <img src="./assets/img/photo_2026-02-04_22-34-08.jpg" alt="смешная картинка">
+            <span>Это я делаю дз</span>
+        </div>
+    </section>
+
+    <section data-cy="hw1-section-about-pre">
+        <select>
+            <option value="">Москва</option>
+            <option value="" selected>Казань</option>
+            <option value="">Бугульма</option>
+        </select>
+        <div data-cy="hw1-unordered-list-box-pre">
+
+            <h2>Любимые аниме</h2>
+            <ul>
+                <li>ТораДора</li>
+                <li>Звёздное Дитя</li>
+                <li>Магическая битва</li>
+                <li>Семья шпиона</li>
+                <li>Медалистка</li>
+            </ul>
+        </div>
+        <div data-cy="hw1-ordered-list-box-pre">
+            <h2>Любимые фильмы</h2>
+            <ol>
+                <li>Телепорт</li>
+                <li>Назад в будущее</li>
+                <li>Социальная сеть</li>
+            </ol>
+        </div>
+        <div data-cy="hw1-skills-box-pre">
+            <h2>Мои скиллы</h2>
+            <form>
+                    <fieldset>
+                        <legend>Skills</legend>
+                            <label>
+                                <input type="checkbox" name="Skills" value="html" checked>
+                                HTML
+                            </label>
+                            <label>
+                                <input type="checkbox" name="Skills" value="css" checked>
+                                CSS
+                            </label>
+                            <label>
+                                <input type="checkbox" name="Skills" value="flexbox">
+                                Flexbox
+                            </label>
+                            <label>
+                                <input type="checkbox" name="Skills" value="grid css">
+                                Grid CSS
+                            </label>
+                    </fieldset>
+                </form>
+        </div>
+        <form>
+                <label for="some-skill">
+                    Твои навыки
+                    <input type="text" id="some-skill" name="some-skill" placeholder="Новый скилл">
+                </label>
+            <button type="submit">Добавить</button>
+            <button type="reset">Стереть</button>
+        </form>
+        <hr>
+        <!-- 5) Создай здесь однострочное поле для ввода текста с подсказкой "Новый скилл", которая исчезает, когда начинаешь что-то печатать (для подсказки есть специальный атрибут) -->
+        <!-- 6) Создай здесь кнопку “Добавить” -->
+        <!-- 7) Добавь горизонтальную линию (для этого есть специальный тег) -->
+        
+        <table border="1" data-cy="hw-about-table-pre">
+              <thead>
+                    <tr>
+                        <th>п/п</th>
+                        <th>Наименование</th>
+                        <th>Колличество</th>
+                    </tr>
+               </thead>
+               <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Монитор</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Клавиатура</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Мышь</td>
+                    <td>1</td>
+                </tr>
+               </tbody>
+               <tfoot>
+                <tr>
+                    <td colspan="2">Итого</td>
+                    <td>3</td>
+                </tr>
+               </tfoot>
+              
+            <!-- 8) В таблице сделай 5 строк и 3 столбца. 
+                        - В первой строке ячейки заголовков, в остальных обычные ячейки
+                        - Добавь границы для всей таблицы с помощью специального атрибута border="". Он устарел, но работает
+                        - В последнем ряду первая ячейка должна занимать 2 столбца (как должно выглядеть - смотри образец). Таблицу можно заполнять любыми данными -->
+        </table>
+    </section>
+    <footer data-cy="hw-footer-pre">
+        <a target="_blank" href="https://it-incubator.io/">it-incubator</a>
+        <!-- 9) Создай здесь ссылку на наш сайт https://it-incubator.io/ (текст ссылки должен быть it-incubator) -->
+    </footer>
+</body>
+</html>
